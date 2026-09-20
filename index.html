@@ -343,6 +343,10 @@
 
   @media (max-width: 520px) { .barra .btn-chico { padding: 0; width: 44px; } .barra .txt-wa { display: none; } }
 
+  .orden { max-width: 100%; }
+  .orden select { min-width: 0; max-width: 100%; }
+  @media (max-width: 520px) { .orden { width: 100%; } .orden select { flex: 1; } }
+
   /* ---------- Letra grande ---------- */
   html.letra-grande { font-size: 118%; }
   .barra-acciones { display: flex; align-items: center; gap: 10px; }
